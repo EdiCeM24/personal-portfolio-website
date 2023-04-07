@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+:root {}
+html {}
+.box-1 {
+    background-color: #ceaf12;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    color: black;
+}
+.box-2 {
+    background-color: #1ecab2;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+@media screen and (min-width: 800px) {
+    .container {
+        display: flex;
+    }
+}
+.box-1 {
+    background-color: dodgerblue;
+    height: 55px;
+}
+.box-2 {
+    background-color: #1ecab2;
+    height: 55px;
+}
+.image-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: none;
+    color: #ceaf12;
+    margin-left: 2%;
+    outline: 2px;
+    top: 1%;
+    height: 2%;
+    margin-top: -2%;
+    padding: 0.5rem;
+}
+h1 span {
+    color: red;
+    outline: 2px;
+    outline-color: forestgreen ;
+    top: 1%;
+    height: 2%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+.image-btn img {
+    border-radius: 30px;
+    position: relative;
+    margin-top: 2%;
+    size: 30px;
+    padding: 0.5px;
+    margin-left: 1%;
+    object-fit: cover;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;  
+}
+header {
+    display: header;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.box-1,
+.cart a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.box-2,
+.sign-in a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+button {
+    border: 1px solid #ceaf12;
+    border-radius: 4px;
+    text-decoration: none;
+}
+button,
+.links_1 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+button, 
+.links_1 a {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: oblique;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: space-between;
+}
+button,
+.Ho {
+    color: #1ecab2;
+}
+.Ab {
+    color: darkorchid;
+}
+.Ser {
+    color: salmon;
+}
+.Port {
+    color: forestgreen;
+}
+.Blo {
+    color: dodgerblue;
+}
+.Con {
+    color: orangered;
+}
+footer {
+    background-color: dodgerblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
